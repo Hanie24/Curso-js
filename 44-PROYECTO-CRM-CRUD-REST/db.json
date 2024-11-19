@@ -1,11 +1,18 @@
 {
-  "clientes": [
+  "clients": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
+      "id": "1aa8",
+      "name": "Emmanuelle",
+      "email": "member_1@testing.com",
+      "phone": "342343",
+      "companie": "oye"
+    },
+    {
+      "name": "Angela ",
+      "email": "panda@prueba.com",
+      "phone": "23545645",
+      "companie": "torres",
+      "id": "b963"
     }
   ]
 }
