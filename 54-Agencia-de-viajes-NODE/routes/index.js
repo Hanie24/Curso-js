@@ -2,13 +2,16 @@ import express from "express";
 
 const router = express.Router();
 
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
   // send es un método que se utiliza para mostrar cosas en pantalla
   res.send("Inicio");
 });
-app.get("/nosotros", (req, res) => {
-  res.send("Nosotros");
+router.get("/nosotros", (req, res) => {
+  // render imprime un view
+  res.render("nosotros");
 });
-app.get("/contacto", (req, res) => {
+router.get("/contacto", (req, res) => {
   res.send("Contacto");
 });
+
+export default router;
